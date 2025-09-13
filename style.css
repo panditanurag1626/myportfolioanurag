@@ -34,6 +34,9 @@ nav a{
 nav a:hover{
     background-color: aquamarine;
 }
+/* .about:hover{
+    transform: scale(1.1);
+} */
 .intro{
     background-color: #F5CBCB;
     text-align: center;
@@ -122,6 +125,6 @@ section{
     padding: 1rem;
     /* margin-bottom: 1.5rem ; */
 }
-.project-btn:hover{
+.project-btn1:hover{
     transform:scale(1.1);
 }
