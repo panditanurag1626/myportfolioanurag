@@ -94,7 +94,7 @@ section{
     
 }
 .section-title:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     background-color: #A8FBD3;
 }
 .project-image{
