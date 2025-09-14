@@ -160,3 +160,37 @@ section{
     background-color: #EBD6FB;
     max-width:auto;
 }
+ footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #37353E;
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+footer .hero {
+  flex: 1 1 100px;
+  margin: 10px;
+}
+
+footer .hero h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #B3A492;
+  border-bottom: 2px solid #241d03;
+  display: inline-block;
+}
+
+footer .hero p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+footer .hero p:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
