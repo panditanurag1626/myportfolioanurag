@@ -128,3 +128,35 @@ section{
 .project-btn1:hover{
     transform:scale(1.1);
 }
+.contact-grid{
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.form{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.contact-grid:hover{
+    transform: scale(0.9);
+    background-color: #7ab058;
+}
+.button {
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: rgb(70, 64, 64);
+    color: white;
+    border-radius: none;
+    border-color: rgb(17, 130, 130);
+}
+.button:hover{
+    transform: scale(1.1);
+    background-color: #67C090;
+}
+.form:hover{
+    background-color: #EBD6FB;
+    max-width:auto;
+}
