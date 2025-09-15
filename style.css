@@ -4,6 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+
 body{
     color: black;
     line-height: 1.6;
@@ -81,7 +82,9 @@ section{
 }
 .project-card{
     background-color: #F5CBCB ;
+
     /* border-radius: 2rem; */
+
     box-shadow: 10px 10px 30px rgba(1,1,1,0.6) ;
     padding: 2rem;
     transition: transform 0.4s;
@@ -191,6 +194,11 @@ footer .hero p {
 footer .hero p:hover {
   color: #ffffff;
   cursor: pointer;
+}
+footer .hero h2:hover{
+    transform: scale(1.1);
+    background-color: #76736d;
+    color: #A8FBD3;
 }
 
 
